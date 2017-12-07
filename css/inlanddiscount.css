@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+.cu-friend{
+    background-color: #fff;
+    text-align: left;
+    font-size:0.35rem;
+    margin: 0 auto;
+}
+.cu-friend ul {
+    display: table;
+    width: 100%;
+    padding-bottom:1rem;
+    font-size: 0;
+    box-sizing: border-box;
+}
+.cu-friend ul li {
+    float: left;
+    display: table-cell;
+    padding:10px 0 0 10px;
+    text-align: center;
+    width: 50%;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    border-top-width: 0;
+}
+.cu-friend ul li  a{
+    display: block;
+}
+.cu-friend .img {
+    margin: 0.25rem auto;
+    overflow: hidden;
+    width: 5rem;
+    height: 5rem;
+}
+.cu-friend .img img{
+    width: 5rem;
+    height: 5rem;
+}
+.cu-friend .title{
+    color: #333;
+    padding: 0 0.2rem;
+    font-size: 0.6rem;
+    text-align: left;
+    text-align-last: left;
+    line-height: 0.9rem;
+    height: 1.8rem;
+    word-break: break-all;
+    overflow: hidden;
+}
+.cu-friend .subtit{
+    color: #ff6c00;
+    margin-top:0.2rem;
+    font-size: 0.6rem;
+    padding:0 0.2rem;
+    text-align: left;
+    text-align-last: left;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    -webkit-line-clamp: 1;
+    word-break: break-all;
+    display: -webkit-box;
+    overflow: hidden;
+}
+.cu-friend .info{
+    padding: 0.15rem 0.2rem;
+}
+.cu-friend .mall{
+    color: #a1a1a1;
+    font-size: 0.5rem;
+    text-align: left;
+}

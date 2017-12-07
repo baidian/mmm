@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+body {
+    color: #000;
+    font-family: arial;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+.cu-content .title {
+    font-size: 0.6rem;
+    margin: 0.25rem auto 0.125rem auto;
+    font-weight: 800;
+    text-align: left;
+    text-align-last: left;
+    word-break: break-all;
+    color: #5a5a5a;
+    line-height: normal;
+    padding-left: 0.25rem;
+}
+.cu-content .info span {
+    color: #999999;
+    vertical-align: middle;
+    margin-left: 0.25rem;
+    font-size: 0.3rem;
+}
+.cu-content .picwrap{
+    width: 3rem;
+    float: right;
+    overflow: hidden;
+    margin:0.25rem auto  auto 0.3rem;
+}
+.cu-content .picwrap img{
+    width: 3rem;
+    height: 3rem;
+}
+.cu-content .conn{
+    font-size: 0.5rem;
+    word-break: break-all;
+    line-height: 0.6rem;
+    color: #606060;
+    padding-bottom:0.5rem;
+    margin-left: 0.25rem;
+}
+.cu-content .conn p{
+    line-height: 0.6rem;
+    color: #606060;
+    margin: 0.15rem auto;
+}
+.cu-content .conn img{
+    max-width: 100%;
+    height:auto;
+    border: none;
+    vertical-align: middle;
+}
+.area span.s{
+    position: relative;
+    display:inline-block;
+    line-height: 0.95rem;
+    padding:0 0.5rem 0 0.4rem;
+    cursor: pointer;
+    z-index: 999;
+    font-size: 0.3rem;
+}
+.area span .drop{
+    padding: 0 0 0.25rem 0;
+    width: 3.45rem;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+    border-color: #f1f1f1 #f1f1f1 #dbdbdb #f1f1f1;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid
+}
+.area span .drop strong{
+    float: right;
+    font-weight: 400;
+}
+.area strong{
+    color: #f27b04;
+}
+.area span .drop ul li a span {
+    border-bottom: 1px dotted #c0c0c0;
+    display: block;
+    padding: 0 0.25rem;
+    text-align: left;
+}
+
+.cu-content .golink a {
+    display: block;
+    margin:0.8rem 1rem;
+    background-color: #ff9000;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    border-radius: 0.2rem;
+    text-align:center;
+    font-size: 0.65rem;
+    color: #fff;
+}
+.cu-content-pl .tit{
+    font-size: 0.675rem;
+    padding: 0.15rem 0.2rem;
+}
+.cu-content-pl .reply .form{
+    border: 2px solid #ECEAE8;
+    border-radius: 0.05rem;
+    padding:0.1rem 0 0 0.1rem;
+    background-color: #fff;
+    position: relative;
+    width: 95%;
+    margin:0 auto;
+}
+.cu-content-pl .reply .form textarea{
+    width: 100%;
+    resize: none;
+    overflow: hidden;
+    border: none;
+    line-height: 0.55rem;
+    font-size: 0.35rem;
+    outline: none;
+    color: #666;
+    height: 2.5rem;
+}
+.cu-content-pl .reply .form .ctrl{
+    background-color: #fbfbfb;
+    height: 1.6rem;
+    border-top:1px solid  #f2f2f2
+}
+.cu-content-pl .reply .form .ctrl input{
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    background: #ff841d;
+    border: 1px solid #ff841d;
+    border-left: none;
+    border-top:none;
+    padding:0;
+    width: 4rem;
+    height: 1.6rem;
+    color: #fff;
+    outline: none;
+    border-radius: 0 0 2px 0;
+    font-size: 0.65rem;
+}
+.cu-content-pl .list ul li{
+    padding: 0.9rem 0.5rem;
+    background-color: #fff;
+}
+.cu-content-pl .list .userimg{
+    width: 2rem;
+    float: left;
+    overflow: hidden;
+}
+.cu-content-pl .list .userimg img{
+    width: 2rem;
+    background-position: top;
+    border-radius: 50%;
+    height: 2rem;
+}
+.cu-content-pl .list .con{
+    overflow: hidden;
+    padding-left:0.4rem;
+}
+.cu-content-pl .list .con .name{
+    margin-bottom:0.3rem;
+}
+.cu-content-pl .list .con .name .username{
+    color: #5997c0;
+    font-size: 0.6rem !important;
+    float: left;
+}
+.cu-content-pl .list .con .name .time{
+    color: #999999;
+    font-size: 0.6rem !important;
+    float: right;
+}
+.cu-content-pl .list .con .content{
+    word-break: break-all;
+    font-size: 0.65rem !important;
+    color: #606060;
+    line-height: 1rem;
+
+}
